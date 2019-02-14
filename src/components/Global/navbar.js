@@ -50,7 +50,7 @@ https://www.iconfinder.com/webalys */}
             aria-label="Toggle navigation"
             onClick={this.navbarHandler}
           >
-            <span className="navbar-toggler-icon" />>
+            <span className="navbar-toggler-icon" />
           </button>
           <div className={this.state.css}>
             <ul class="navbar-nav mx-auto">
@@ -63,8 +63,8 @@ https://www.iconfinder.com/webalys */}
                   </li>
                 );
               })}
-              <li class="nav-item  ml-sm-5">
-                <i class="fas fa-cart-arrow-down" />{" "}
+              <li className="nav-item  ml-sm-5">
+                <i className="fas fa-cart-arrow-down" />{" "}
               </li>
             </ul>{" "}
           </div>
