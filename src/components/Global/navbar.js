@@ -21,7 +21,11 @@ export default class Navbar extends Component {
   };
 
   navbarHandler = () => {
-    console.log("hello");
+    if (this.state.navbarOpen) {
+      this.setState({ navbarOpen: false, css: "collapse navbar-collapse" });
+    } else {
+      this.setState({ navbarOpen: true, css: "collapse navbar-collapse show" });
+    }
   };
   render() {
     return (
